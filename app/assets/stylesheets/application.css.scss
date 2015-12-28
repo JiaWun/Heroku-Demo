@@ -1,0 +1,18 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* scss 的巢狀寫法*/
+div {
+  h1.top_header {
+      color: red;
+  }
+}
+
+.no-list-style {
+  list-style: none;
+}
